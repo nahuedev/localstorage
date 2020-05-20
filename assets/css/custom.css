@@ -1,5 +1,19 @@
+body {
+    color: rgb(224, 228, 228);
+    font-feature-settings: "liga" 0;
+    line-height: 1.7;
+    background: rgb(34, 36, 41);
+    padding: 0px;
+}
+
 h1, h2 {
     text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: IBM Plex Mono,monospace;
+    font-weight: 800;
+    margin: 0 0 20px;
 }
 
 #contenido {
@@ -11,4 +25,15 @@ h1, h2 {
     cursor: pointer;
     color: red;
     font-weight: bold;
+}
+
+form  input.button.color-custum{
+    background-color: rgb(65, 199, 199) !important;
+    border: rgb(65, 199, 199);
+}
+
+input.button.color-custum:hover{
+    background-color: #FE6A6A !important;
+    color:rgb(224, 228, 228);
+
 }
