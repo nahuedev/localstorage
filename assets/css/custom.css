@@ -32,6 +32,10 @@ form  input.button.color-custum{
     border: rgb(65, 199, 199);
 }
 
+textarea{
+    color:rgb(34, 36, 41);
+}
+
 input.button.color-custum:hover{
     background-color: #FE6A6A !important;
     color:rgb(224, 228, 228);
