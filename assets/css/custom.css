@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 #contenido {
     margin-top: 40px;
 }
-.borrar-tweet,
-.borrar-tweet:hover {
+.borrar-nota,
+.borrar-nota:hover {
     float: right;
     cursor: pointer;
     color: red;
